@@ -15,4 +15,8 @@ dependencies {
     implementation 'org.jsoup:jsoup:1.13.1'
 }
 
-
+shadowJar {
+    mergeServiceFiles()
+    exclude 'META-INF/*.DSA'
+    exclude 'META-INF/*.RSA'
+}
