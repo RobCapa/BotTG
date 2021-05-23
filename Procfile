@@ -1,1 +1,1 @@
-web: java -jar build/libs/example_telegram_bot-1.0-all.jar
+web: java -jar build/libs/gradle-getting-started-1.0.jar
